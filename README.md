@@ -15,22 +15,22 @@ PixelPhantomX is a powerful image obfuscation tool designed to generate ghost im
 
 ## Installation
 
-Install the required dependencies:
+Direct Install from PyPI
 
 ```sh
-pip install -r requirements.txt
+pip install PixelPhantomX
 ```
 
-Or install via setup.py:
+Alternatively, install via setup.py:
 
 ```sh
 python setup.py install
 ```
 
-Or directly install from PyPI
+Otherwise, install the required dependencies:
 
 ```sh
-pip install PixelPhantomX
+pip install -r requirements.txt
 ```
 
 ## Usage
