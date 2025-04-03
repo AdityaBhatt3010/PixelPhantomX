@@ -21,6 +21,18 @@ Install the required dependencies:
 pip install -r requirements.txt
 ```
 
+Or install via setup.py:
+
+```sh
+python setup.py install
+```
+
+Or directly install from PyPI
+
+```sh
+pip install PixelPhantomX
+```
+
 ## Usage
 
 Run the tool via the command line:
@@ -50,6 +62,14 @@ To view available commands, run:
 
 ```sh
 python PixelPhantomX.py -h
+```
+
+### Alternative Usage - Interactive Mode
+
+For a guided, interactive experience instead of command-line arguments, use:
+
+```sh
+python PixelPhantomX_Minimal.py
 ```
 
 ## Screenshots
