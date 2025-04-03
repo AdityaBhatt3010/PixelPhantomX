@@ -1,8 +1,8 @@
-# PixelPhantomX
+# PixelPhantomX: Ghost images to confuse AI models
 
 PixelPhantomX is a powerful image obfuscation tool designed to generate ghost images that confuse AI models. In an era where generative AI scrapes and repurposes artwork without the consent of creators, this tool acts as a defensive mechanism. By applying various adversarial techniques, such as noise injection, color-space manipulation, edge distortion, and watermarking, PixelPhantomX helps protect digital images from unauthorized AI training and exploitation.
 
-![Image](https://github.com/user-attachments/assets/ab9d13cb-9fa0-400d-8a8b-e75fb312b70c) <br/>
+![Image](https://github.com/user-attachments/assets/d94c29e8-b2ca-40c6-92d7-fc1b51f745a1) <br/>
 
 ## Features
 
@@ -41,7 +41,7 @@ python PixelPhantomX.py -iP input_image_path -n noise -oP output_image_path -w w
 ### Example:
 
 ```sh
-python PixelPhantomX.py -iP sample.jpg -n Max -oP output_image -w Confidential
+python PixelPhantomX.py -iP Input.png -oP Output -n Min -w AdityaBhatt3010
 ```
 
 ### Help Menu
@@ -51,6 +51,28 @@ To view available commands, run:
 ```sh
 python PixelPhantomX.py -h
 ```
+
+## Screenshots
+
+- **Help Prompt Screenshot**
+  ```sh
+  python PixelPhantomX.py -h
+  ```
+  ![Image](https://github.com/user-attachments/assets/8548e5ff-8d03-4668-adfe-694826f4420f) <br/>
+
+
+- **Run Code Example:**
+  ```sh
+  python PixelPhantomX.py -iP Input.png -oP Output -n Min -w AdityaBhatt3010
+  ```
+  ![Image](https://github.com/user-attachments/assets/5e2be7b1-f71a-4dbc-bab0-cc435611deb9) <br/>
+
+
+- **Input Image Screenshot**
+  <br/> ![Image](https://github.com/user-attachments/assets/f553dd8a-33dc-4db4-a4bb-f61362a6adb9) <br/>
+
+- **Output Image Screenshot**
+  <br/> ![Image](https://github.com/user-attachments/assets/98a3ee41-467d-41cf-998b-a58d50396a31) <br/>
 
 ## License
 
