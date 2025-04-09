@@ -24,12 +24,14 @@ pip install PixelPhantomX
 Alternatively, install via setup.py:
 
 ```sh
+git clone https://github.com/AdityaBhatt3010/PixelPhantomX
 python setup.py install
 ```
 
 Otherwise, install the required dependencies:
 
 ```sh
+git clone https://github.com/AdityaBhatt3010/PixelPhantomX
 pip install -r requirements.txt
 ```
 
