@@ -33,14 +33,6 @@ Otherwise, install the required dependencies:
 pip install -r requirements.txt
 ```
 
-## Usage
-
-Run the tool via the command line:
-
-```sh
-python PixelPhantomX.py -iP input_image_path -n noise -oP output_image_path -w watermark_text
-```
-
 ## Repository Structure
 
 ```
@@ -69,6 +61,14 @@ PixelPhantomX/
 └── .github/
     └── workflows/
         └── python-app.yml        # GitHub Actions workflow for linting and testing
+```
+
+## Usage
+
+Run the tool via the command line:
+
+```sh
+python PixelPhantomX.py -iP input_image_path -n noise -oP output_image_path -w watermark_text
 ```
 
 ### Parameters:
