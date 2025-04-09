@@ -41,6 +41,31 @@ Run the tool via the command line:
 python PixelPhantomX.py -iP input_image_path -n noise -oP output_image_path -w watermark_text
 ```
 
+## Repository Structure
+
+```
+PixelPhantomX/
+├── PixelPhantomX.py               # Main script: runs full image protection pipeline
+├── PixelPhantomX_Minimal.py      # Lightweight version with core functionality
+├── Img_Poision.py                # Core image poisoning logic
+├── RP_Struct.py                  # Runtime parameter or response structure definitions
+├── utilities.py                  # Utility functions for adversarial techniques
+│
+├── README.md                     # Project overview and usage instructions
+├── Requirements.txt              # Python dependencies
+├── setup.py                      # Setup script for installation
+├── pyproject.toml                # Project metadata for build tools
+│
+├── LICENSE                       # License information
+├── .gitignore                    # Git ignored files
+│
+└──  /images/                     # Example input/output images and UI assets
+    ├── Input.png
+    ├── Output.jpg
+    ├── PixelPhantomX_Run.png
+    └── Help.png
+ ```
+
 ### Parameters:
 
 | Parameter | Description                                  |
@@ -94,21 +119,11 @@ python PixelPhantomX_Minimal.py
 - **Output Image Screenshot**
   <br/> ![Image](https://github.com/user-attachments/assets/98a3ee41-467d-41cf-998b-a58d50396a31) <br/>
 
-## License
-
-This project is licensed under the MIT License.
-
-## Author
-
-**Aditya Bhatt**\
-
 ## Contributing
-
 Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
 
 ---
 
 ### Disclaimer:
-
 This tool is intended for **ethical** use only. The author is not responsible for any misuse of this software.
 
