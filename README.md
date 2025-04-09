@@ -68,7 +68,8 @@ PixelPhantomX/
 │
 └── .github/
     └── workflows/
-        └── python-app.yml        # GitHub Actions workflow for linting and testing ```
+        └── python-app.yml        # GitHub Actions workflow for linting and testing
+```
 
 ### Parameters:
 
