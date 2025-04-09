@@ -1,0 +1,11 @@
+# Force GitHub Linguist to recognize YAML as a programming language
+*.yml linguist-detectable
+*.yaml linguist-detectable
+
+# Explicitly mark YAML as a language
+*.yml linguist-language=YAML
+*.yaml linguist-language=YAML
+
+# Prevent YAML files from being ignored as "generated" or "vendored"
+*.yml -linguist-vendored
+*.yaml -linguist-vendored
