@@ -59,12 +59,15 @@ PixelPhantomX/
 ├── LICENSE                       # License information
 ├── .gitignore                    # Git ignored files
 │
-└──  /images/                     # Example input/output images and UI assets
-    ├── Input.png
-    ├── Output.jpg
-    ├── PixelPhantomX_Run.png
-    └── Help.png
- ```
+├── /images/                      # Example input/output images and UI assets
+│   ├── Input.png
+│   ├── Output.jpg
+│   ├── PixelPhantomX_Run.png
+│   └── Help.png
+│
+└── .github/
+    └── workflows/
+        └── python-app.yml        # GitHub Actions workflow for linting and testing ```
 
 ### Parameters:
 
