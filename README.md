@@ -58,6 +58,7 @@ PixelPhantomX/
 │
 ├── LICENSE                       # License information
 ├── .gitignore                    # Git ignored files
+├── .gitattributes                # Git settings (e.g. end-of-line normalization)
 │
 ├── /images/                      # Example input/output images and UI assets
 │   ├── Input.png
