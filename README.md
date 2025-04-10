@@ -4,36 +4,6 @@ PixelPhantomX is a powerful image obfuscation tool designed to generate ghost im
 
 ![Image](https://github.com/user-attachments/assets/d94c29e8-b2ca-40c6-92d7-fc1b51f745a1) <br/>
 
-## Repository Structure
-
-```
-PixelPhantomX/
-├── PixelPhantomX.py               # Main script: runs full image protection pipeline
-├── PixelPhantomX_Minimal.py      # Lightweight version with core functionality
-├── Img_Poision.py                # Core image poisoning logic
-├── RP_Struct.py                  # Runtime parameter or response structure definitions
-├── utilities.py                  # Utility functions for adversarial techniques
-│
-├── README.md                     # Project overview and usage instructions
-├── Requirements.txt              # Python dependencies
-├── setup.py                      # Setup script for installation
-├── pyproject.toml                # Project metadata for build tools
-│
-├── LICENSE                       # License information
-├── .gitignore                    # Git ignored files
-├── .gitattributes                # Git settings (e.g. end-of-line normalization)
-│
-├── /images/                      # Example input/output images and UI assets
-│   ├── Input.png
-│   ├── Output.jpg
-│   ├── PixelPhantomX_Run.png
-│   └── Help.png
-│
-└── .github/
-    └── workflows/
-        └── python-app.yml        # GitHub Actions workflow for linting and testing
-```
-
 ## Features
 
 - **Adversarial Noise Injection** (Inspired by Glaze & Nightshade)
